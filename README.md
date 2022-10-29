@@ -30,7 +30,7 @@ This is backend part of the website.
 ##### Request
 `GET /api/v1/songs/<id>`_[protected]_
 
-<id> is the id of song
+_id_ is the id of song
 
 Example url:
 
@@ -83,8 +83,11 @@ Example:
     }
     
 #### Get user profile details
+
 ##### Request
+
 `GET /api/user/profile` _[protected]_
+
 Example:
 
     Request Header:
@@ -102,7 +105,9 @@ Example:
 
 #### Change password
 ##### Request
+
 `GET /api/user/changepassword` _[protected]_
+
 Example:
 
     Request Body:
