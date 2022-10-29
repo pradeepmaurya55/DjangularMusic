@@ -29,6 +29,7 @@ This is backend part of the website.
 #### Get all details of a particular song 
 ##### Request
 `GET /api/v1/songs/<id>`_[protected]_
+
 <id> is the id of song
 
 Example url:
